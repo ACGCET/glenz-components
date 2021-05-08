@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+	<link rel="stylesheet" type="text/css" href="first.css">
+	<title></title>
+</head>
+<body>
+
+<div id="floating-subscribe" class="floatingSubscribeVisible floatingTransition  hide">
+	<div class="floating-subscribe-wrapper">
+		<div class="floating-subscribe-close" onclick="myFunction()">
+			<img src="img1.svg" alt="Close">
+		</div>
+		<h2 class="heading">Get Started with GraphQL Now</h2>
+		<div class="post-subscription-description">
+		Hasura Cloud gives you a fully managed, production ready GraphQL API as a service to help you build modern apps faster.
+	    </div>
+		<div class="buttonWrapper">
+			<a href="###">
+				<button class="subscribeBtn">
+					
+				Try Hasura Cloud for Free</button>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="subscribeIcon" id="Noite" onclick="myFunctionone()">
+	<div class="shareIcon"><img src="img2.svg" alt="Mail"></div>
+</div>
+<script type="text/javascript">
+
+	function myFunction() {
+		 
+  document.getElementById('Noite').style.display='block';
+  document.getElementById('floating-subscribe').style.display='none';
+ 
+}
+function myFunctionone() {
+		 
+  document.getElementById('Noite').style.display='none';
+  document.getElementById('floating-subscribe').style.display='block';
+ 
+}
+
+myID = document.getElementById("floating-subscribe");
+
+var myScrollFunc = function() {
+  var y = window.scrollY;
+  if (y <= 200) {
+    myID.className = "floatingSubscribeVisible floatingTransition  hide"
+  } else {
+    myID.className = "floatingSubscribeVisible floatingTransition  show"
+  }
+};
+
+window.addEventListener("scroll", myScrollFunc);
+</script>
+</body>
+</html>
