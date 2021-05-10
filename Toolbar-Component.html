@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Toolbar Component</title>
+	<style type="text/css">
+		.show
+		 {
+          display: block;
+         }
+ 	</style>
+</head>
+<body>
+
+<div  class="floatingSubscribeVisible floatingTransition  ">
+	<div class="floating-subscribe-wrapper" id="floating-subscribe">
+		<div class="floating-subscribe-close" onclick="Disablecard()">
+			<img src="./assets/img1.svg" alt="Close">
+		</div>
+		<h2 class="heading">Get Started with GraphQL Now</h2>
+		<div class="post-subscription-description">
+		Hasura Cloud gives you a fully managed, production ready GraphQL API as a service to help you build modern apps faster.
+	    </div>
+			<a href="###">
+				<button class="subscribeBtn">Try Hasura Cloud for Free</button>
+			</a>
+		</div>
+</div>
+
+<div class="subscribeIcon" id="subscribe" onclick="Disableicon()">
+	<div class="shareIcon"><img src="./assets/img2.svg" alt="Mail"></div>
+</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
