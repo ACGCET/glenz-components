@@ -1,0 +1,126 @@
+body
+{
+  height: 7000px;
+}
+.quick-connect-links {
+    position: absolute;
+    margin-left: 100px;
+    top: 150px;
+    width: 220px;
+    background: #fff;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 60%);
+    border: 1px solid #eceff1;
+    display: none;
+    position: fixed;
+    right: 0px;
+}
+span {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+  background: #089949;
+    z-index: 1;
+    top: 150px;
+    right: 0;
+    cursor: pointer;
+    position: fixed;
+}
+span:before {
+    top: 11px;
+    transform: rotate(-45deg);
+}
+
+span:after, span:before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    width: 12px;
+    height: 3px;
+    background: #fff;
+}
+span:after {
+    top: 18px;
+    transform: rotate(-135deg);
+}
+
+
+.quick-connect-links>span {
+    display: inline-block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: #fafafa;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    border: 1px solid #eceff1;
+    border-top: 0;
+}
+.quick-connect-links h4 {
+    position: relative;
+    padding: 5px 50px 5px 20px;
+    border-bottom: 1px solid #eceff1;
+    font-size: 15px;
+    margin: 0;
+    font: 17px/1.4 Poppins;
+}
+ul {
+    list-style: none;
+}
+ .quick-connect-links ul li {
+    position: relative;
+    list-style: none !important;
+    padding: 5px 0 5px 20px;
+    font-size: 13px;
+    border-bottom: 1px solid #eceff1;
+    margin: 0;
+    font-family: Poppins;
+}
+.quick-connect-links ul li a {
+    color: #000;
+    transition: .5s ease;
+    text-decoration: none;
+    outline: 0;
+}
+.quick-connect-links>span:after, .quick-connect-links>span:before {
+    content: '';
+    position: absolute;
+    left: 11px;
+    width: 10px;
+    height: 1px;
+    background: #000;
+}
+.quick-connect-links>span:after {
+    top: 20px;
+    transform: rotate(135deg);
+    left: 11px;
+}
+
+.quick-connect-links>span:before {
+    top: 13px;
+    transform: rotate(
+45deg
+);
+}
+ .quick-connect-links ul li:before {
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: 14px;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    transition: .5s ease;
+    background: #b0bec5;
+} 
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 768px)
+   {
+.container
+{
+    display: none;
+}
+
+}
