@@ -1,17 +1,17 @@
- Disablecard = function() {
+ const Disablecard = () => {
 		 
   document.getElementById('subscribe').style.display='block';
   document.getElementById('floating-subscribe').style.display='none';
  
 }
-Disableicon = function() {
+const Disableicon = () => {
 		 
   document.getElementById('subscribe').style.display='none';
   document.getElementById('floating-subscribe').style.display='block';
  
 }
 
-var myScrollFunc = function() {
+const myScrollFunc = () => {
   var y = window.scrollY;
   if (y >= 200) {
     document.getElementById("floating-subscribe").classList.add("show");

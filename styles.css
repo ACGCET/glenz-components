@@ -103,3 +103,7 @@ img
 .shareIcon {
    padding-left: 10px;
 }
+.show
+		 {
+          display: block;
+         }
