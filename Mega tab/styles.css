@@ -1,0 +1,99 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+li {
+  float: left;
+}
+
+
+.tab-icon-active {
+    border-radius: 32px;
+    background: #F5F6F8;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    top: 2rem;
+}
+#tab1
+{
+	background-color: #FEC200
+}
+.tab-icon-active img {
+    width: 30px;
+    padding-top:1rem;
+    padding-left: 0.9rem;
+    opacity: 0.3;
+}
+#img1
+{
+	opacity: 1;
+}
+
+.elementor-tab-title p
+{
+	text-align: center;
+	color:#4d4d4d;
+	font-family: Poppins;
+}
+
+#tit1
+{
+	color: #000;
+}
+
+.divclass {
+    display: flex;
+    align-items: center;
+
+}
+div .example {
+    padding: 20px;
+    width: 50%;
+}
+.img-bg img {
+	padding-top: 3rem;
+    width: 100%!important; 
+}
+#elementor-tab-title1
+{
+	border-bottom: 2px solid #FEC200;
+}
+.h2new {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    color: #181818;
+   
+}
+.pnew {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+
+}
+.example a
+{
+	color: #000;
+	font-family: Poppins;
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 768px) 
+   { 
+.container
+{
+  display: none;
+}
+}

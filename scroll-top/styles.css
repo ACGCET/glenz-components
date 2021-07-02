@@ -1,0 +1,20 @@
+body
+{
+	height: 7000px;
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  top: 8rem;
+  right: 30px;
+  border: none;
+  outline: none;
+  background-color: #01013F;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 0.4rem;
+  height: 1cm;
+}

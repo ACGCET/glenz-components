@@ -1,0 +1,47 @@
+body { 
+	height: 7000px; 
+	margin: 0px; 
+} 
+ .banner-notification {
+ background-color: rgba(23,39,78,.7);
+ text-align: center; 
+ overflow: hidden;
+ font-family: sans-serif;
+ font-size: 1rem; 
+ line-height: 1; 
+ color: #fff;
+ font-size: 0.9rem; 
+} 
+.tag-new {
+  background-color: #3973e6;
+  padding: 4px 8px;
+  color: #fff;
+  font-size: .85rem;
+  position: relative;
+
+}
+.tag {
+    border-radius: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+svg
+{
+	background-color: white;
+	cursor: pointer;
+}
+.cancel
+{
+	padding-left: 1rem;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 768px)
+   {
+.banner-notification
+{
+    display: none;
+}
+
+}
